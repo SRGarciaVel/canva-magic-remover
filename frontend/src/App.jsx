@@ -74,7 +74,7 @@ function App() {
         <h1 style={{ fontSize: '2.5rem', fontWeight: 900, color: '#1e293b' }}>
           Mágica Canva Studio <Wand2 size={32} color="#8b3dff" />
         </h1>
-        <p style={{ color: '#64748b' }}>Eliminación de fondos profesional para la Madrina</p>
+        <p style={{ color: '#64748b' }}>Eliminación de fondos</p>
       </header>
 
       <div className="glass-panel">

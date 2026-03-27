@@ -23,7 +23,7 @@ def remove_background(input_path, output_path):
     # 2. Pre-procesamiento: Mejoramos el contraste local (CLAHE)
     # Esto ayuda a la IA a distinguir el fondo beige de la piel beige
     img_np = np.array(img_pil)
-    img_lab = cv2.cvtColor(img_np, cv2.COLOR_RGB2LAB) # <-- CORREGIDO: COLOR_RGB2LAB
+    img_lab = cv2.cvtColor(img_np, cv2.COLOR_RGB2LAB)
     l, a, b = cv2.split(img_lab)
     clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8,8))
     l = clahe.apply(l)

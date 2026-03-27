@@ -4,6 +4,10 @@ backend/__pycache__/
 backend/*.pyc
 backend/.env
 backend/outputs/*.png
+.env
+backend/.env
+venv/
+node_modules/
 
 # Node / React
 frontend/node_modules/

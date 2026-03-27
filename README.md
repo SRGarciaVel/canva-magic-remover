@@ -23,3 +23,5 @@ Herramienta local de eliminación de fondos optimizada para diseñadores de Canv
 
 ---
 Desarrollado como una solución local para optimizar flujos de trabajo creativos.
+
+Model Credit: BiRefNet by ZhengPeng7
