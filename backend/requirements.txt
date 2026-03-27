@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+torch
+torchvision
+transformers
+pillow
+sqlalchemy
+psycopg2-binary
+python-dotenv
+python-multipart
+requests
+einops
+kornia
+timm
+numpy
+opencv-python
